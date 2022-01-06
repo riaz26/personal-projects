@@ -51,7 +51,7 @@ body{
     text-align: justify;
 }
 #left-box{
-    background-color: rgb(177, 241, 231);
+    background-color: rgb(250, 237, 237);
     width: 50%;
     margin-right: 10px;
     padding-left: 2%;
@@ -61,7 +61,7 @@ body{
     border-radius: 15px;
 }
 #middle-box{
-    background-color: rgb(220, 243, 177);
+    background-color: rgb(242, 248, 231);
     width: 50%;
     margin-right: 10px;
     margin-left: 10px;
@@ -72,7 +72,7 @@ body{
     border-radius: 15px;
 }
 #right-box{
-    background-color: rgb(139, 240, 139);
+    background-color: rgb(240, 238, 212);
     width: 50%;
     margin-left: 10px;
     padding-left: 2%;
@@ -83,6 +83,9 @@ body{
 }
 .boxes-img img{
     width: 40%;
+}
+.boxes p{
+    font-size: 20px;
 }
 .flexible-container{
     display: flex;
@@ -97,9 +100,11 @@ body{
 }
 .flexible h1{
     font-size: 50px;
+    line-height: 30px;
 }
 .flexible p{
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 30px;
 }
 .link-button{
     text-decoration: none;
@@ -115,6 +120,57 @@ body{
 .second-img{
     margin-left: 35px;
 }
+
+.my-portfolio{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 5px 7px 40px gray;
+}
+.portfolio{
+    width: 50%;
+}
+.portfolio img{
+    width: 80%;
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.portfolio h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.portfolio p{
+    font-size: 20px;
+}
+.second-link-button{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+#last-box{
+    background-color: white;
+    border-left: 15px solid;
+    border-image: linear-gradient( orange, tomato);
+    border-image-slice: 1;
+    padding-left: 80px;
+    padding-top: 30px;
+    box-shadow: 5px;
+    border-radius: 15px;
+}
+.portfolio-color{
+    color: tomato;
+}
+
 .footer-design{
     background-color: black;
     color: white;
