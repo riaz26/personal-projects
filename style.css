@@ -1,3 +1,44 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+#border-create{
+    border-left: 5px solid;
+    border-color: rgb(199, 9, 34);
+    border-image-slice: 1;
+    line-height: 30px;
+    height: 100px;
+    
+}
+.span-tag{
+    color: coral;
+}
+.first-box h1{
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+.third-img img{
+    width: 70%;
+}
+.third-img{
+    padding-left: 250px;
+}
+.mission{
+    text-align: center;
+    font-size: 50px;
+}
+.c-orange{
+    color: rgb(241, 150, 13);
+}
 .boxes{
     display: flex;
     text-align: justify;
@@ -36,7 +77,7 @@
 .boxes-img img{
     width: 40%;
 }
-section{
+.flexible-container{
     display: flex;
     text-align: justify;
     margin-top: 100px;
@@ -66,4 +107,24 @@ section{
 }
 .second-img{
     margin-left: 35px;
+}
+.footer-design{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.footer-design h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.footer-design footer{
+    font-size: 15px;
+}
+footer{
+    padding-bottom: 50px;
+}
+.footer-color{
+    color: rgb(206, 52, 25);
 }
