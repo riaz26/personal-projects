@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+
 .container{
     display: flex;
     text-align: justify;
@@ -15,14 +16,20 @@ body{
     border-color: rgb(199, 9, 34);
     border-image-slice: 1;
     line-height: 30px;
-    height: 100px;
+    height: 120px;
     
+}
+.text-size{
+    line-height: 30px;
+}
+.text-size p{
+    font-size: 20px;
 }
 .span-tag{
     color: coral;
 }
 .first-box h1{
-    font-size: 50px;
+    font-size: 60px;
     padding-left: 15px;
 }
 
